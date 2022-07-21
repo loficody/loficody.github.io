@@ -134,14 +134,14 @@ background-color:#0077B7;
 
 .inst{background-color: #dd2a7b;}
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 780px) {
 main {flex-flow: column wrap;}
 .main-column{flex: 1 1 100%;}
 .flex-row {flex-flow: column wrap;}
 .btn{flex: 1 1 50%;}
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
 main {flex-flow: column wrap;}
 .main-column{flex: 1 1 100%;}
 .flex-row {flex-flow: column wrap;}
