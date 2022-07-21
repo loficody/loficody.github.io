@@ -138,7 +138,7 @@ background-color:#0077B7;
 main {flex-flow: column wrap;}
 .main-column{flex: 1 1 100%;}
 .flex-row {flex-flow: column wrap;}
-.btn{flex: 1 1 50%;}
+.btn{flex: 1 1 100%;}
 }
 
 @media screen and (min-width: 992px) {
