@@ -47,7 +47,6 @@ font-size: 1.75rem;}
 Main {
   margin: 0 auto;
   width:90%;
-  font-size: 1.75rem;
   display: flex;
   flex-flow: row wrap;
   text-align: center;
@@ -74,15 +73,6 @@ margin-top:4%;
   height:400px;
 }
 
-img{
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  width:100%;
-  height: auto;
-  margin-top:4%;
-}
 
 .btn {
   margin-top:2%;
@@ -147,18 +137,19 @@ margin:0;
 margin:0;
 color: #e3e3e3;}
 
-@media screen and (max-width: 1023px) {
-main {flex-flow: column wrap;}
-.flex-column{flex-direction:row;}
-.spt{flex-basis:100%;}
-.ap{flex-basis:100%;}
-.coffee{flex-basis:100%;}
-.link{flex-basis:100%;}
-.drib{flex-basis:100%;}
-.inst{flex-basis:100%;}
-html{font-size: 18px;}
-h1{margin-bottom: 5px;font-size:7rem;}
-h2{font-size:3.5rem;}
-.btn{font-size:1.2rem;}
+
+@media only  screen and (max-width: 1023px) {
+    main {flex-flow: column wrap;}
+    .flex-column{flex-direction:row;}
+    .spt{flex-basis:100%;}
+    .ap{flex-basis:100%;}
+    .coffee{flex-basis:100%;}
+    .link{flex-basis:100%;}
+    .drib{flex-basis:100%;}
+    .inst{flex-basis:100%;}
+    html{font-size: 18px;}
+    h1{margin-bottom: 5px; font-size:7rem;}
+    h2{font-size:3.5rem;}
+    .btn{font-size:1.2rem;}
 }
 
