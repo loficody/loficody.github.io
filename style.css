@@ -1,6 +1,9 @@
-html{
-  text-size-adjust: 100%;}
-  body {
+html {
+  text-size-adjust: 100%;
+  height: 100%;
+}
+
+body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -13,120 +16,185 @@ html{
   height: 100%;
   text-align: center;
   display: block;
-  }
-  
-  h1 {
-    display: block;
-    font-size: 3em;
-    text-size-adjust: 100%;
-    font-weight: 900;
-    letter-spacing: 0;
-    color: #FFFFFF;
-    text-shadow: 0.08em 0.08em 0.08em rgb(0 0 0 / 40%);
-    font-family: 'Nova Round', cursive;
-    text-transform: uppercase;
-    flex: 1 1 100%;
-    margin:5%;
-  }
-  h2 {
-    font-size: 2em;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-    display: inline;
-    padding-bottom: 10px;
-    line-height: 1;
-    flex: 1 1 100%;
-  }
-  a {
-    text-decoration: none;
-    color: #ffffff;
-  }
-  
-  header{
+}
+
+h1 {
+  display: block;
+  font-size: 3em;
+  text-size-adjust: 100%;
+  font-weight: 900;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  text-shadow: 0.08em 0.08em 0.08em rgb(0 0 0 / 40%);
+  font-family: 'Nova Round', cursive;
+  text-transform: uppercase;
+  flex: 1 1 100%;
+  margin: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  display: inline;
+  padding-bottom: 10px;
+  line-height: 1;
+  flex: 1 1 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header {
   margin: 0 auto;
-  width:100%;
-  font-size: 1.75rem;}
-  
-  Main {
-    width:100%;
-    display: flex;
-    flex-flow: row wrap;
-    text-align: center;
-    font-size: 1.1rem;
-  }
-  
-  .main-column{
+  width: 100%;
+  font-size: 1.75rem;
+}
+
+Main {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.main-column {
   flex: 1 1 50%;
-  }
-  
-  .flex-column {
-    display: flex;
-    flex-flow: column wrap;
-  }
-  
-  
-  .btn {
-    margin:2% 2%;
-    padding: 2em 1em;
-    font-size: 1.5em;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 500;
-    box-shadow: rgb(0 0 0) 10px 10px 0 0;
-  
-    /* center text and icon */
-    display:flex;
-    align-items:center;
-    justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.btn {
+  margin: 3% 3%;
+  padding: 2em 1em;
+  font-size: 2.5em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: rgb(0 0 0) 10px 10px 0 0;
+  /* center text and icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* container */
-    border: 2px solid rgb(0, 0, 0);
-    transition: none 0s ease 0s;
-    border-radius: 8px;
-    background-color: rgb(238, 17, 85);
-    color: #fff;
-    height:30%;
-  }
-  
-  .btn:hover {
-    background-color: #fff;
-    color: #000;
-    transition: all 300ms ease 0ms;
-    transform: translate(6px, 6px);
-    box-shadow: rgb(0 0 0) 4px 4px 0 0;
-  }
-  .label{margin-left:10px;}
-  .btn i{font-size: 2em;
-  }
-  
-  .spt{
+  border: 2px solid rgb(0, 0, 0);
+  transition: none 0s ease 0s;
+  border-radius: 8px;
+  background-color: rgb(238, 17, 85);
+  color: #fff;
+  height: 30%;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all 300ms ease 0ms;
+  transform: translate(6px, 6px);
+  box-shadow: rgb(0 0 0) 4px 4px 0 0;
+}
+
+.label {
+  margin-left: 10px;
+}
+
+.btn i {
+  font-size: 1.5em;
+}
+
+.spt {
   flex: 1 1 100%;
   background-color: #1DB954;
-  }
-  .ap{
+}
+
+.ap {
   flex: 1 1 100%;
   background-color: #872ec4;
-  }
-  .coffee{
+}
+
+.coffee {
   flex: 1 1 100%;
-  }
-  
-  
-  .link{
+}
+
+.link {
   flex: 1 1 100%;
-  background-color:#0077B7;
-  }
-  .drib{
+  background-color: #0077B7;
+}
+
+.drib {
   flex: 1 1 100%;
-  background-color: #E84C88;}
-  
-  .inst{
+  background-color: #E84C88;
+}
+
+.inst {
   background-color: #dd2a7b;
   flex: 1 1 100%;
+}
+
+.catch-phrase {
+  font-size: 2.5em;
+  padding: 5% 15%;
+}
+
+.catch-phrase p {
+  margin: 0;
+}
+
+.tagline {
+  margin: 0;
+}
+
+@media only screen and (min-width: 1170px) {
+
+main{
+padding: 0 2%;
+width:96%;
+}
+
+.catch-phrase{font-size: 2em;}
+  .flex-row {
+    flex-flow: row wrap;
+    height: 50vh;
   }
-  
-  .catch-phrase{font-size:2em;}
-  .catch-phrase p{margin:0;}
-  .tagline{
-  margin:0;
+
+  .flex-column {
+    flex-flow: column wrap;
+    height: 50vh;
   }
-  
+
+  .flex-row .btn {
+    height: 40%;
+  }
+
+  .btn {
+    margin: 2%;
+    padding: 0.3rem 1rem;
+    font-size: 2em;
+  }
+
+  .spt {
+    flex: 1 1 30%;
+  }
+
+  .ap {
+    flex: 1 1 30%;
+  }
+
+  .link {
+    flex: 1 1 30%;
+  }
+
+  .drib {
+    flex: 1 1 30%;
+  }
+}
