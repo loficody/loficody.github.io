@@ -148,7 +148,7 @@ margin:0;
 margin:0;
 color: #e3e3e3;}
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1170px) {
 main {flex-flow: column wrap;}
 .flex-column{flex-direction:row;}
 .spt{flex-basis:100%;}
@@ -157,9 +157,7 @@ main {flex-flow: column wrap;}
 .link{flex-basis:100%;}
 .drib{flex-basis:100%;}
 .inst{flex-basis:100%;}
-html{font-size: 20px;}
+html{font-size: 18px;}
 h1{margin-bottom: 5px;}
-h2{font-size: 2rem;}
-body{margin-top:0;}
 }
 
