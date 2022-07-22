@@ -1,3 +1,4 @@
+html{font-size:16px;}
 body {
   background: linear-gradient(rgb(121, 0, 255), rgb(20, 35, 255));
   background-attachment: fixed;
@@ -15,23 +16,21 @@ h1 {
   font-size: 5rem;
   color: #FFFFFF;
   letter-spacing: 1px;
-
   text-shadow: 0.08em 0.08em 0.08em rgb(0 0 0 / 40%);
   font-family: 'Nova Round', cursive;
   text-transform: uppercase;
   padding-bottom: 10px;
-  line-height: 1em;
+  line-height: 1;
   flex: 1 1 100%;
 }
 
 h2 {
   font-size: 2.5rem;
   color: #FFFFFF;
-  text-align: left;
   letter-spacing: 1px;
   display: inline;
   padding-bottom: 10px;
-  line-height: 1em;
+  line-height: 1;
   flex: 1 1 100%;
 }
 h3{font-size:2rem;}
@@ -158,5 +157,9 @@ main {flex-flow: column wrap;}
 .link{flex-basis:100%;}
 .drib{flex-basis:100%;}
 .inst{flex-basis:100%;}
-
+html{font-size: 20px;}
+h1{margin-bottom: 5px;}
+h2{font-size: 2rem;}
+body{margin-top:0;}
 }
+
