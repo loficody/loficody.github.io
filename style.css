@@ -8,7 +8,7 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   line-height: 1.2;
-  background: linear-gradient(rgb(121, 0, 255), rgb(20, 35, 255));
+  background: linear-gradient(rgb(121, 0, 255), rgb(0, 0, 0));
   background-attachment: fixed;
   color: #fff;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -124,6 +124,7 @@ Main {
 
 .coffee {
   flex: 1 1 100%;
+  background-color: #496945;
 }
 
 .link {
@@ -137,8 +138,8 @@ Main {
 }
 
 .inst {
-  background-color: #dd2a7b;
   flex: 1 1 100%;
+  background-color: #e95950;
 }
 
 .catch-phrase {
@@ -154,7 +155,9 @@ Main {
   margin: 0;
 }
 
-@media only screen and (min-width: 1024px) {
+
+
+@media only screen and (min-width: 1170px) {
 
 main{
 padding: 0 2%;
