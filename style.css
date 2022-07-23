@@ -154,7 +154,7 @@ Main {
   margin: 0;
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1024px) {
 
 main{
 padding: 0 2%;
