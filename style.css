@@ -25,7 +25,8 @@ h1 {
   text-size-adjust: 100%;
   font-weight: 900;
   letter-spacing: 0;
-  color: #FFFFFF;
+  color: #E1543C;
+  border: solid 4px #fff;
   text-shadow: 0.08em 0.08em 0.08em rgb(0 0 0 / 40%);
   font-family: 'Mouse Memoirs', sans-serif;
   text-transform: uppercase;
@@ -35,7 +36,7 @@ h1 {
 
 h2 {
   font-size: 2em;
-  color: #FFFFFF;
+  color: #CED95B;
   letter-spacing: 1px;
   display: inline;
   padding-bottom: 10px;
