@@ -9,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   line-height: 1.2;
   background: rgb(33,86,31);
-background: linear-gradient(180deg, rgba(33,86,31,1) 0%, rgba(162,199,96,1) 100%);
+background: linear-gradient(180deg, rgba(162,199,96,1) 0%, rgba(33,86,31,1) 100%);
   background-attachment: fixed;
   color: #fff;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -125,7 +125,6 @@ Main {
 
 .coffee {
   flex: 1 1 100%;
-  background-color: #496945;
 }
 
 .link {
