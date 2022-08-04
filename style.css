@@ -26,9 +26,9 @@ h1 {
   font-weight: 900;
   letter-spacing: 0;
   color: #21561F;
-  -webkit-text-stroke: 1.5px #fff;
+  -webkit-text-stroke: 1px #fff;
   text-shadow: 0.08em 0.08em 0.08em rgb(0 0 0 / 40%);
-  font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   text-transform: uppercase;
   flex: 1 1 100%;
   margin: 0.5em;
