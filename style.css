@@ -21,7 +21,7 @@ background: linear-gradient(180deg, rgba(162,199,96,1) 0%, rgba(33,86,31,1) 100%
 
 h1 {
   display: block;
-  font-size: 4em;
+  font-size: 5em;
   text-size-adjust: 100%;
   font-weight: 900;
   letter-spacing: 0;
@@ -56,7 +56,7 @@ header {
 }
 
 Main {
-  width: clamp(980px, 90vw, 1440px);
+  width: clamp(90vw, 1440px);
   display: flex;
   flex-flow: row wrap;
   text-align: center;
