@@ -8,7 +8,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   line-height: 1.2;
-  background: linear-gradient rgb(162, 199, 96), rgb(33, 86, 31));
+  background: rgb(33,86,31);
+background: linear-gradient(180deg, rgba(33,86,31,1) 0%, rgba(162,199,96,1) 100%);
   background-attachment: fixed;
   color: #fff;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
