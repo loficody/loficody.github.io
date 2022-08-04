@@ -54,7 +54,7 @@ header {
 }
 
 Main {
-  width: 100%;
+  width: clamp(980px, 90vw, 1440px);
   display: flex;
   flex-flow: row wrap;
   text-align: center;
