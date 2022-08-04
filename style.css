@@ -8,7 +8,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   line-height: 1.2;
-  background: linear-gradient(rgb(121, 0, 255), rgb(0, 0, 0));
+  background: linear-gradientrgb(162, 199, 96), rgb(33, 86, 31));
   background-attachment: fixed;
   color: #fff;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -91,7 +91,7 @@ Main {
   border: 2px solid rgb(0, 0, 0);
   transition: none 0s ease 0s;
   border-radius: 8px;
-  background-color: rgb(238, 17, 85);
+  background-color: #E1543C;
   color: #fff;
   height: 30%;
 }
