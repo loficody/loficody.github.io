@@ -9,7 +9,7 @@ body {
   -webkit-font-smoothing: antialiased;
   line-height: 1.2;
   background: rgb(33,86,31);
-background: linear-gradient(180deg, rgba(162,199,96,1) 0%, rgba(33,86,31,1) 100%);
+background: linear-gradient(180deg, #94c93d 0%,  	#07703c 100%);
   background-attachment: fixed;
   color: #fff;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -21,17 +21,17 @@ background: linear-gradient(180deg, rgba(162,199,96,1) 0%, rgba(33,86,31,1) 100%
 
 h1 {
   display: block;
-  font-size: 5em;
+  font-size: 4.5em;
   text-size-adjust: 100%;
   font-weight: 900;
   letter-spacing: 0;
   color: #21561F;
   -webkit-text-stroke: 1px #fff;
   text-shadow: 0.08em 0.08em 0.08em rgb(0 0 0 / 40%);
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Luckiest Guy', cursive;
   text-transform: uppercase;
   flex: 1 1 100%;
-  margin: 0.5em;
+  margin: 0.5em 0.5em 0 0.5em;
 }
 
 h2 {
@@ -93,7 +93,7 @@ Main {
   border: 2px solid rgb(0, 0, 0);
   transition: none 0s ease 0s;
   border-radius: 8px;
-  background-color: #E1543C;
+  background-color: #ed1a37;
   color: #fff;
   height: 30%;
 }
@@ -140,7 +140,7 @@ Main {
 
 .inst {
   flex: 1 1 100%;
-  background-color: #e95950;
+  background-color: #FCAF45;
 }
 
 .catch-phrase {
@@ -156,14 +156,16 @@ Main {
   margin: 0;
 }
 
-
+.music-player {padding:2%;
+width: clamp(900px, 50%, 1440px;)}
 
 @media only screen and (min-width: 1170px) {
 
 main{
 padding: 0 2vw;
-width:96vw;
 }
+
+.music-player {padding:1% 2% 1% 2%;}
 
 .catch-phrase{font-size: 2em;}
   .flex-row {
