@@ -172,8 +172,7 @@ Main {
   margin: 0;
 }
 
-.music-player {padding:2%;
-width: clamp(900px, 50%, 1440px;)}
+.music-player{display:none;}
 
 @media only screen and (min-width: 1170px) {
 
@@ -181,7 +180,8 @@ main{
 padding: 0 2vw;
 }
 
-.music-player {padding:1% 2% 1% 2%;}
+.music-player{display:block;}
+
 
 .catch-phrase{font-size: 2em;
 max-width: 90%;

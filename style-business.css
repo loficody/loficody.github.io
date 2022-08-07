@@ -167,8 +167,8 @@ html {
     margin: 0;
   }
   
-  .music-player {padding:2%;
-    width: 100%;}
+
+  .music-player{display:none;}
   
   @media only screen and (min-width: 1170px) {
   
@@ -176,7 +176,7 @@ html {
   padding: 0 5vw;
   }
 
-  .music-player {padding:1% 2% 1% 2%;}
+  .music-player{display:block;}
   
   .catch-phrase{font-size: 2em;
     max-width: 90%;
