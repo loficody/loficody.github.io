@@ -154,8 +154,8 @@ html {
   
   .catch-phrase {
     font-size: 2.5em;
-    padding: 5% 15%;
-    max-width: 900px;
+    padding: 2%;
+    max-width: 100%;
     margin: 0 auto;
   }
   
@@ -178,7 +178,9 @@ html {
 
   .music-player {padding:1% 2% 1% 2%;}
   
-  .catch-phrase{font-size: 2em;}
+  .catch-phrase{font-size: 2em;
+    max-width: 90%;
+  padding:5% 15%;}
     .flex-row {
         flex-flow: column wrap;
         height: 30vh;
