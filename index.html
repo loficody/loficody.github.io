@@ -10,17 +10,6 @@
 <script src="https://kit.fontawesome.com/fa2ba17cc0.js" crossorigin="anonymous"></script>
   <!-- Style Sheets -->
   <link id="party-mode" rel="stylesheet" type="text/css" href="style-business.css">
-  <script type="text/javascript">
-  function swapStyle() {
-  let checkBox = document.getElementById("businessMode");
-  if (checkBox.checked == true){
-    document.getElementById('party-mode') .setAttribute ('href', 'style.css')
-  } else {
-    document.getElementById('party-mode') .setAttribute ('href', 'style-business.css')
-  }
-} 
-  </script>
-
 
   <meta charset="utf-8">
   <title>Cody Taylor</title>
@@ -34,11 +23,6 @@
 
 
     <h2>Web Developer, Music Producer, Barista</h2>
-    <h3 class="business-active">Party Mode</h3>
-    <label class="switch">
-    <input type="checkbox" id="businessMode" onclick="swapStyle()">
-    <span class="slider"></span>
-    </label>
     </header>
   <main>
     <div class="main-column">
@@ -46,7 +30,11 @@
       <a class="btn link" href="https://www.linkedin.com/in/cody-taylor-12289784/"><i class="fa-brands fa-linkedin"></i><span class="label">LinkedIn</span></a>
       <a class="btn inst" href="https://www.instagram.com/loficody"><i class="fa-brands fa-instagram"></i><span class="label">Instagram</span></a>
       <a class="btn drib" href="https://dribbble.com/LofiCody"><i class="fa-brands fa-dribbble"></i><span class="label">Portfolio</span></a>
-    </div></div>
+    </div>
+  <div class="flex-column">
+    <a class="btn nft" href="https://opensea.io/collection/many-inns"><i class="fa-solid fa-paintbrush"></i><span class="label">My NFTs</span></a>
+  </div>
+  </div>
 
 
     <div class="main-column">
@@ -54,11 +42,15 @@
       <a class="btn spt" href="https://open.spotify.com/artist/0JcaREL6qQ9aJa8LNnDOJC?si=E0y2F850SNOPR1zXnzqAxw"><i class="fa-brands fa-spotify"></i><span class="label">Music</span></a>
       <a class="btn ap" href="https://sinnersandsufferers.com"><i class="fa-solid fa-podcast"></i><span class="label">Podcast</span></a>
       <a class="btn coffee" href="https://vinecoffeeco.com/"><i class="fa-solid fa-mug-hot"></i><span class="label">Coffee</span></a>
-    </div></div>
+    </div>
+  <div class=""flex-row">
+    <div class="cell"><span class="music-player"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0JcaREL6qQ9aJa8LNnDOJC?utm_source=generator&theme=0" width="100%" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></span>
+    </div>
+  </div>
+  </div>
 
   
 <div class="main-column catch-phrase">
-  <span class="music-player"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0JcaREL6qQ9aJa8LNnDOJC?utm_source=generator&theme=0" width="100%" height="80px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></span>
      
   <p><strong>Endeavouring after  truth, beauty, and excellence.</strong></p>
   <p>Phil 4:8</p>

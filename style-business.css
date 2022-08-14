@@ -107,6 +107,11 @@ html {
     color: #fff;
     height: 30%;
   }
+
+  .cell {
+    margin: 2% 3%;
+    flex: 1 1 100%;
+  }
   
   .btn:hover {
     background-color: #fff;
@@ -145,6 +150,11 @@ html {
   .drib {
     flex: 1 1 100%;
     color: #E84C88;
+  }
+
+  .nft{
+  flex: 1 1 100%;
+  color: rgb(32, 129, 226);
   }
   
   .inst {
@@ -216,6 +226,8 @@ html {
     .inst {
       flex: 1 1 30%;
     }
+    .nft{ flex: 1 1 30%;}
+    .cell{ flex: 1 1 30%;}
   }
   
   /* Stlke Sheet Toggler */
