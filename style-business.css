@@ -12,7 +12,7 @@ html {
   background: linear-gradient(180deg, #2d2d2d 0%,  	#000000 100%);
     background-attachment: fixed;
     color: #fff;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
     scroll-behavior: smooth;
     height: 100%;
     text-align: center;
@@ -27,7 +27,7 @@ html {
     letter-spacing: 0;
     color: #ffffff;
     text-shadow: 0.08em 0.08em 0.08em rgb(0 0 0 / 40%);
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
     flex: 1 1 100%;
     margin: 0.5em 0.5em 0.5em 0.5em;
   }
